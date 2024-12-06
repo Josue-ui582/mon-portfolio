@@ -19,9 +19,7 @@ export function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-            <div>
-              <Image src="mon-logo.PNG" alt="Mon logo" width="100" height="100" className="rounded" />
-            </div>
+            <p className="text-xl font-bold">portfolio</p>
 
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="hover:text-primary transition-colors">
