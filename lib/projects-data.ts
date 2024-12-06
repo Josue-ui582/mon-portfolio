@@ -8,12 +8,12 @@ export const projects = [
     liveUrl: "https://doc-appointment-platform.vercel.app/"
   },
   {
-    title: "Application de discussion en temps réel",
-    description: "Application de discussion comme les solutions existantes. Cette application permet la discussion en temps réel",
-    technologies: ["React", "Tailwind CSS", "Node.js", "Socket io", "express JS"],
-    imageUrl: "/chat-app.avif",
-    githubUrl: "https://github.com/Josue-ui582/chat-app",
-    liveUrl: ""
+    title: "Site web de vente de vêtement",
+    description: "Ceci est site web monopage et responsive que j'ai conçu à base d'une maquette figma. C'est exercice pratique auquel je me suis donné pour avoir plus de compétence en Frontend",
+    technologies: ["React", "Tailwind CSS"],
+    imageUrl: "/capture-fashion.PNG",
+    githubUrl: "https://github.com/Josue-ui582/Fashion",
+    liveUrl: "https://fashion-ten-chi.vercel.app/"
   },
   {
     title: "Site web e-commerce",
