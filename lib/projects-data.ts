@@ -3,13 +3,13 @@ export const projects = [
     title: "Une plateforme de prise de rendez-vous",
     description: "Plateforme moderne pour la prise de rendez-vous chez un médecin",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    imageUrl: "/Capture.PNG",
+    imageUrl: "/Capture.png",
     githubUrl: "https://github.com/SergeCodeur/figma-to-code-ed2-week4",
     liveUrl: "https://doc-appointment-platform.vercel.app/"
   },
   {
     title: "Site web de vente de vêtement",
-    description: "Ceci est site web monopage et responsive que j'ai conçu à base d'une maquette figma. C'est exercice pratique auquel je me suis donné pour avoir plus de compétence en Frontend",
+    description: "Ceci est site web monopage et responsive que j'ai conçu à base d'une maquette figma. C'est un exercice pratique auquel je me suis donné pour avoir plus de compétence en Frontend",
     technologies: ["React", "Tailwind CSS"],
     imageUrl: "/capture-fashion.PNG",
     githubUrl: "https://github.com/Josue-ui582/Fashion",
