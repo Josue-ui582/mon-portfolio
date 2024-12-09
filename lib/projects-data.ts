@@ -22,5 +22,13 @@ export const projects = [
     imageUrl: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2426&auto=format&fit=crop",
     githubUrl: "https://github.com/Josue-ui582/Iwefbook-Shop",
     liveUrl: ""
+  },
+  {
+    title: "Chatbot basé sur un restaurent de vente de chawarma",
+    description: "J'ai crée un chatbot pour un restaurent de vente de chawarma. C'est un restaurent fictif. J'ai profité de ce projet pour mettre en pratique mes expériences en Frontent et la manipulation des APIs",
+    technologies: ["React JS", "Tailwind CSS"],
+    imageUrl: "/chatbot.png",
+    githubUrl: "https://github.com/Josue-ui582/chawarma-restaurent-chatbot",
+    liveUrl: "https://chawarma-restaurent-chatbot.vercel.app"
   }
 ];
