@@ -30,5 +30,13 @@ export const projects = [
     imageUrl: "/chatbot.png",
     githubUrl: "https://github.com/Josue-ui582/chawarma-restaurent-chatbot",
     liveUrl: "https://chawarma-restaurent-chatbot.vercel.app"
+  },
+  {
+    title: "Portfolio créer pour un client ( un expert en transit et dédouanement )",
+    description: "J'ai crée ce portfolio pendant un accompagnement avec cet expert transit pour lui permettre de se faire une place en ligne et contribuer à sa transformation digitale",
+    technologies: ["Next JS", "Tailwind CSS", "Typescript", "Hero UI"],
+    imageUrl: "/capture-armel.png",
+    githubUrl: "https://github.com/Josue-ui582/armel-lalou",
+    liveUrl: "https://armel-lalou.vercel.app"
   }
 ];

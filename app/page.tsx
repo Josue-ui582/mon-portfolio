@@ -26,14 +26,21 @@ export default function Home() {
               Développeur Frontend React
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Spécialisé dans la création d&apos;interfaces modernes et réactives
+              Spécialisé dans la création d&apos;interfaces modernes et réactives, j'utilse au quotidien des technologies modernes pour créer des solutions utiles pour une meilleure expérience utilisateur. Vous avez une idée projet ou une proposition de collaboration professionnelle ? Discutons de tout ce qui vous amène maintenant.
             </p>
             <Link
               href="/projets"
-              className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-full hover:opacity-90 transition-opacity"
+              className="inline-flex mr-6 items-center px-6 py-3 bg-primary text-primary-foreground rounded-full hover:opacity-90 transition-opacity"
             >
               Voir mes projets
-              <ArrowRight className="ml-2 h-5 w-5" />
+              <ArrowRight className="ml-2 h-5 w-5 animate-slide" />
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex items-center px-6 py-3 bg-transparent text-white-foreground rounded-full border hover:opacity-90 transition-opacity"
+            >
+              Contactez-moi
+              <ArrowRight className="ml-2 h-5 w-5 animate-slide" />
             </Link>
           </motion.div>
 
@@ -104,7 +111,7 @@ export default function Home() {
 const technologies = [
   {
     title: "Frontend Frameworks",
-    description: "React.js, Next.js",
+    description: "React.js, Next.js, Typescript",
     icon: <Code className="w-8 h-8 text-primary" />,
   },
   {
@@ -114,7 +121,7 @@ const technologies = [
   },
   {
     title: "UI/UX",
-    description: "Responsive Design, Animations",
+    description: "Responsive Design, Animations, Intégration de maquette Figma",
     icon: <Layout className="w-8 h-8 text-primary" />,
   },
 ];

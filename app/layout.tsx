@@ -8,8 +8,8 @@ import { Footer } from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Mon Portfolio',
-  description: 'Portfolio créé avec Next.js, Tailwind CSS et Framer Motion',
+  title: 'Josué HOUNHOUI',
+  description: 'Josué HOUNHOUI est un développeur Frontend passionné ayant travaillé sur plusieurs projets concrets et inspirants. Il travaille avec les technologies modernes en développement d\'application Frontend',
 };
 
 export default function RootLayout({

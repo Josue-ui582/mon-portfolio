@@ -1,11 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Moon, Sun, Menu, X } from "lucide-react"; // Ajout de l'icône X
+import { Moon, Sun, Menu, X } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { useState } from "react";
-import Image from "next/image";
 
 export function Navigation() {
   const { theme, setTheme } = useTheme();
@@ -19,7 +18,7 @@ export function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-            <p className="text-xl font-bold uppercase">portfolio</p>
+            <Link href="/" className="text-xl font-bold uppercase">Josué HOUNHOUI</Link>
 
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="hover:text-primary transition-colors">
