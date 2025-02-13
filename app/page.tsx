@@ -28,17 +28,17 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
               Spécialisé dans la création d&apos;interfaces modernes et réactives, j'utilse au quotidien des technologies modernes pour créer des solutions utiles pour une meilleure expérience utilisateur. Vous avez une idée projet ou une proposition de collaboration professionnelle ? Discutons de tout ce qui vous amène maintenant.
             </p>
-            <div className="flex flex-row  gap-4">
+            <div className="flex md:flex-row flex-col gap-6">
               <Link
                 href="/projets"
-                className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-full hover:opacity-90 transition-opacity"
+                className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground text-center rounded-full hover:opacity-90 transition-opacity"
               >
                 Voir mes projets
                 <ArrowRight className="ml-2 h-5 w-5 animate-slide" />
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center px-6 py-3 bg-transparent text-white-foreground rounded-full border hover:opacity-90 transition-opacity"
+                className="inline-flex items-center px-6 py-3 bg-transparent text-white-foreground text-center rounded-full border hover:opacity-90 transition-opacity"
               >
                 Contactez-moi
                 <ArrowRight className="ml-2 h-5 w-5 animate-slide" />
