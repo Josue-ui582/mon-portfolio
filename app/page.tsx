@@ -28,7 +28,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
               Spécialisé dans la création d&apos;interfaces modernes et réactives, j'utilse au quotidien des technologies modernes pour créer des solutions utiles pour une meilleure expérience utilisateur. Vous avez une idée projet ou une proposition de collaboration professionnelle ? Discutons de tout ce qui vous amène maintenant.
             </p>
-            <div className="flex md:flex-row flex-col gap-6">
+            <div className="flex flex-row  gap-4">
               <Link
                 href="/projets"
                 className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-full hover:opacity-90 transition-opacity"
