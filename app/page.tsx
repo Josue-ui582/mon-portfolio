@@ -31,16 +31,16 @@ export default function Home() {
             <div className="flex md:flex-row flex-col gap-6">
               <Link
                 href="/projets"
-                className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground text-center rounded-full hover:opacity-90 transition-opacity"
+                className="flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground text-center rounded-full hover:opacity-90 transition-opacity"
               >
-                Voir mes projets
+                <span>Voir mes projets</span>
                 <ArrowRight className="ml-2 h-5 w-5 animate-slide" />
               </Link>
               <Link
                 href="/contact"
-                className="inline-flex items-center px-6 py-3 bg-transparent text-white-foreground text-center rounded-full border hover:opacity-90 transition-opacity"
+                className="flex items-center justify-center px-6 py-3 bg-transparent text-white-foreground text-center rounded-full border hover:opacity-90 transition-opacity"
               >
-                Contactez-moi
+                <span>Contactez-moi</span>
                 <ArrowRight className="ml-2 h-5 w-5 animate-slide" />
               </Link>
             </div>
