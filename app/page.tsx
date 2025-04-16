@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Code, Layout, Palette } from "lucide-react";
+import { ArrowRight, Code, Layout, Palette, Database } from "lucide-react";
 import { useInView } from "react-intersection-observer";
 import Link from "next/link";
 import Image from "next/image";
@@ -23,10 +23,10 @@ export default function Home() {
             className="text-left"
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Développeur Frontend React
+              Développeur FullStack
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Spécialisé dans la création d&apos;interfaces modernes et réactives, j'utilse au quotidien des technologies modernes pour créer des solutions utiles pour une meilleure expérience utilisateur. Vous avez une idée projet ou une proposition de collaboration professionnelle ? Discutons de tout ce qui vous amène maintenant.
+              Spécialisé dans la création d&apos;interfaces modernes et réactives, le développement des applications FullStack, j'utilse au quotidien des technologies modernes pour créer des solutions utiles pour une meilleure expérience utilisateur. Vous avez une idée projet ou une proposition de collaboration professionnelle ? Discutons de tout ce qui vous amène maintenant.
             </p>
             <div className="flex md:flex-row flex-col gap-6">
               <Link
@@ -115,6 +115,16 @@ const technologies = [
     title: "Frontend Frameworks",
     description: "React.js, Next.js, Typescript",
     icon: <Code className="w-8 h-8 text-primary" />,
+  },
+  {
+    title: "Backend Frameworks",
+    description: "Node.JS, Express.JS",
+    icon: <Code className="w-8 h-8 text-primary" />,
+  },
+  {
+    title: "Base de données",
+    description: "Postgresql, MySQL, MongoDB",
+    icon: <Database className="w-8 h-8 text-primary" />,
   },
   {
     title: "Styles",

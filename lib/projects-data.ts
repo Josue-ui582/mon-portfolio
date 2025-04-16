@@ -38,5 +38,13 @@ export const projects = [
     imageUrl: "/capture-armel.png",
     githubUrl: "https://github.com/Josue-ui582/armel-lalou",
     liveUrl: "https://armel-lalou.vercel.app"
+  },
+  {
+    title: "Une application de discussion en temps réel",
+    description: "J'ai crée cette application pour mettre en application mes compétences en développement FullStack. Le code est publié sur GitHub",
+    technologies: ["React JS", "Tailwind CSS", "Node JS", "Express JS"],
+    imageUrl: "/chat_app.jpeg",
+    githubUrl: "https://github.com/Josue-ui582/chat-app",
+    liveUrl: ""
   }
 ];

@@ -27,7 +27,7 @@ export default function AboutPage() {
           className="mb-20"
         >
           <p className="text-lg text-muted-foreground leading-relaxed text-justify">
-            Je suis un développeur Front-end spécialisé dans la création d&apos;applications web modernes
+            Je suis un développeur FullStack spécialisé dans la création d&apos;applications web modernes
             et performantes. Avec plus deux ans d&apos;expérience dans le développement web,
             je combine créativité et expertise technique pour donner vie à des projets innovants. Si je trouve un peu du temps je m&apos;amuse à créer des applications Full-Stack avec Node JS.
           </p>
