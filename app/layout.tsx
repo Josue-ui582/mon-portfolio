@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Josué HOUNHOUI',
-  description: 'Josué HOUNHOUI est un développeur Frontend passionné ayant travaillé sur plusieurs projets concrets et inspirants. Il travaille avec les technologies modernes en développement d\'application Frontend',
+  description: 'Josué HOUNHOUI est un développeur FullStack passionné ayant travaillé sur plusieurs projets concrets et inspirants. Il travaille avec les technologies modernes de développement d\'application FullStack',
 };
 
 export default function RootLayout({
