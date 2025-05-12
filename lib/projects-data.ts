@@ -46,5 +46,21 @@ export const projects = [
     imageUrl: "/chat_app.jpeg",
     githubUrl: "https://github.com/Josue-ui582/chat-app",
     liveUrl: ""
+  },
+  {
+    title: "Une application permettant de jouer de la music",
+    description: "J'ai crée cette application dans le but de prendre en main mes compétences en frontend. Cette application permet de jouer des musics de votre choix qu'elle vous fournira.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    imageUrl: "/music-player.png",
+    githubUrl: "https://github.com/Josue-ui582/music-player",
+    liveUrl: "https://music-player-teal-tau.vercel.app/"
+  },
+  {
+    title: "Une application de recherche de vidéo sur YouTube",
+    description: "J'ai crée cette application pour faciliter la recherche de vidéo sur YouTube, une fois la vidéo préparée, elle vous redirige vers YouTube pour la suivre.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    imageUrl: "/movie-search.png",
+    githubUrl: "",
+    liveUrl: "https://movie-search-app-rose-nu.vercel.app/"
   }
 ];
