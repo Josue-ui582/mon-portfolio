@@ -62,5 +62,13 @@ export const projects = [
     imageUrl: "/movie-search.png",
     githubUrl: "",
     liveUrl: "https://movie-search-app-rose-nu.vercel.app/"
+  },
+  {
+    title: "Une application de recherche de morcaux des artistes en recherchant par nom d'rtiste",
+    description: "J'ai crée cette application pour faciliter la recherche des morcaux de n'importe quel artiste en faisant ",
+    technologies: ["Next JS", "Tailwind CSS", "TypeScript", "Deezer API"],
+    imageUrl: "/music-explorer.png",
+    githubUrl: "",
+    liveUrl: "https://music-explorer-six.vercel.app/"
   }
 ];

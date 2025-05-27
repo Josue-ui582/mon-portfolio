@@ -10,6 +10,11 @@ export function Navigation() {
   const { theme, setTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
 
+  
+  const toggleTheme = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
+
   return (
     <motion.nav
       initial={{ y: -100 }}
@@ -20,7 +25,7 @@ export function Navigation() {
         <div className="flex justify-between h-16 items-center">
             <Link href="/" className="text-xl font-bold uppercase">Josué HOUNHOUI</Link>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex justify-center items-center space-x-8">
             <Link href="/" className="hover:text-primary transition-colors">
               Accueil
             </Link>
@@ -34,22 +39,37 @@ export function Navigation() {
               Contact
             </Link>
             <button
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="p-2 rounded-full hover:bg-muted transition-colors relative"
-            >
-              <Sun className="absolute h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-              <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+              onClick={toggleTheme}
+              className="rounded-full hover:bg-muted transition-colors relative p-2"
+              >
+                {theme === 'dark' ? (
+                <Sun className="h-5 w-5 transition-transform rotate-0 scale-100" />
+              ) : (
+                <Moon className="h-5 w-5 transition-transform rotate-0 scale-100" />
+              )}
             </button>
           </div>
 
           {/* Bouton Menu / Close pour mobile */}
-          <button
-            className="md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          <div className="flex justify-center items-center gap-4">
+            <button
+              className="md:hidden"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}
+            >
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+            <button
+              onClick={toggleTheme}
+              className="rounded-full hover:bg-muted transition-colors relative p-2 md:hidden"
+              >
+                {theme === 'dark' ? (
+                <Sun className="h-5 w-5 transition-transform rotate-0 scale-100" />
+              ) : (
+                <Moon className="h-5 w-5 transition-transform rotate-0 scale-100" />
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
