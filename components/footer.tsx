@@ -52,7 +52,7 @@ export function Footer() {
                   hounhouijosue1@gmail.com
                 </a>
               </li>
-              <li className="text-muted-foreground">+229 1 52 53 62 86</li>
+              <li className="text-muted-foreground">+229 01 52 53 62 86</li>
             </ul>
           </div>
 

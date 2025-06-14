@@ -64,11 +64,19 @@ export const projects = [
     liveUrl: "https://movie-search-app-rose-nu.vercel.app/"
   },
   {
-    title: "Une application de recherche de morcaux des artistes en recherchant par nom d'rtiste",
+    title: "Une application de recherche de morcaux des artistes en recherchant par nom d'artiste",
     description: "J'ai crée cette application pour faciliter la recherche des morcaux de n'importe quel artiste en faisant ",
     technologies: ["Next JS", "Tailwind CSS", "TypeScript", "Deezer API"],
     imageUrl: "/music-explorer.png",
     githubUrl: "",
     liveUrl: "https://music-explorer-six.vercel.app/"
+  },
+  {
+    title: "Une application de jeux, ZEE-MOVIE-QUIZ",
+    description: "Il s'agit d'une application de jeu pensée et implémentée à l'aide des technologies de pointe les plus évoluées sur le marché. Le joueur doit simplement s'inscrire et se connecter. Ensuite, il accède au jeu, ça consite à dire si un acteur a joué dans un film ou non. Le jeu dur 1 minute, dans cet intervalle le joueur peut répondre à plusieurs questions et à la fin du temps on l'envoie sont résultats avec son score du jeu.",
+    technologies: ["Next JS", "Urql", "TypeScript", "Graphql-codegen", "Chakra UI", "Formik", "Express", "Apollo Server", "Type-graphql", "Typeorm"],
+    imageUrl: "/zee-movie-quiz-image.png",
+    githubUrl: "https://github.com/Josue-ui582/ze-movie-quizz",
+    liveUrl: ""
   }
 ];
