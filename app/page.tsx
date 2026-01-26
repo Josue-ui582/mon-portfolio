@@ -26,7 +26,7 @@ export default function Home() {
               Développeur FullStack
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-              Spécialisé dans la création d&apos;interfaces modernes et réactives, le développement des applications FullStack, j'utilse au quotidien des technologies modernes pour créer des solutions utiles pour une meilleure expérience utilisateur. Vous avez une idée projet ou une proposition de collaboration professionnelle ? Discutons de tout ce qui vous amène maintenant.
+              Spécialisé dans la conception d'interfaces modernes, réactives et d'architectures FullStack, je m'appuie sur les dernières technologies pour bâtir des solutions centrées sur l'utilisateur. Vous portez un projet innovant ou souhaitez explorer une opportunité de collaboration ? Rencontrons-nous pour donner vie à vos idées.
             </p>
             <div className="flex md:flex-row flex-col gap-6">
               <Link
@@ -113,12 +113,12 @@ export default function Home() {
 const technologies = [
   {
     title: "Frontend Frameworks",
-    description: "React.js, Next.js, Typescript",
+    description: "React.js, Next.js, Typescript, Tailwind",
     icon: <Code className="w-8 h-8 text-primary" />,
   },
   {
     title: "Backend Frameworks",
-    description: "Node.JS, Express.JS",
+    description: "Express.js, Nest.js, TypeScript",
     icon: <Code className="w-8 h-8 text-primary" />,
   },
   {
