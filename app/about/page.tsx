@@ -27,9 +27,7 @@ export default function AboutPage() {
           className="mb-20"
         >
           <p className="text-lg text-muted-foreground leading-relaxed text-justify">
-            Je suis un développeur FullStack spécialisé dans la création d&apos;applications web modernes
-            et performantes. Avec plus deux ans d&apos;expérience dans le développement web,
-            je combine créativité et expertise technique pour donner vie à des projets innovants. Si je trouve un peu du temps je m&apos;amuse à créer des applications Full-Stack avec Node JS.
+            Développeur FullStack spécialisé dans la conception d'applications web modernes et performantes, je justifie de plus de deux ans d'expérience dans le secteur. Je combine créativité et rigueur technique pour transformer des idées complexes en solutions numériques innovantes. Passionné par l'écosystème JavaScript, j'investis mon temps libre dans l'exploration de l'architecture FullStack avec Node.js, approfondissant ainsi constamment ma maîtrise des technologies serveur.
           </p>
         </motion.div>
 
