@@ -54,7 +54,7 @@ export default function Home() {
 
           >
             <Image
-              src="/hero1.jpg"
+              src="/hero2.jpg"
               alt="Portrait"
               fill
               className="object-cover rounded-full border-4 border-background"
