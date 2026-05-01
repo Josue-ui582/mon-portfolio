@@ -36,7 +36,7 @@ export const projects = [
     description: "J'ai conçu une interface de recherche optimisée pour YouTube, visant à simplifier la découverte de contenus vidéo. Ce projet met en avant ma capacité à intégrer des services tiers via l'API YouTube Data v3. J'ai particulièrement travaillé sur la gestion des requêtes asynchrones, l'affichage dynamique des résultats (thumbnails, métadonnées) et la mise en place d'un système de redirection fluide vers la plateforme native pour la lecture.",
     technologies: ["HTML", "CSS", "JavaScript"],
     imageUrl: "/movie-search.png",
-    githubUrl: "",
+    githubUrl: "https://github.com/Josue-ui582/movie-search-app",
     liveUrl: "https://movie-search-app-rose-nu.vercel.app/"
   },
   {
@@ -44,7 +44,7 @@ export const projects = [
     description: "J'ai développé un moteur de recherche dédié aux discographies d'artistes, conçu pour offrir un accès instantané aux répertoires musicaux. Ce projet m'a permis d'approfondir la gestion des flux de données asynchrones et l'affichage dynamique de listes complexes. En interrogeant des APIs de contenu musical, j'ai mis en place une interface intuitive où la précision de la recherche et la rapidité d'affichage sont au cœur de l'expérience utilisateur.",
     technologies: ["Next.js", "Tailwind CSS", "TypeScript", "Deezer API"],
     imageUrl: "/music-explorer.png",
-    githubUrl: "",
+    githubUrl: "https://github.com/Josue-ui582/music-explorer",
     liveUrl: "https://music-explorer-six.vercel.app/"
   },
   {
