@@ -26,9 +26,15 @@ export default function AboutPage() {
           transition={{ duration: 0.8 }}
           className="mb-20"
         >
-          <p className="text-lg text-muted-foreground leading-relaxed text-justify">
-            Développeur FullStack spécialisé dans la conception d'applications web modernes et performantes, je justifie de plus de deux ans d'expérience dans le secteur. Je combine créativité et rigueur technique pour transformer des idées complexes en solutions numériques innovantes. Passionné par l'écosystème JavaScript, j'investis mon temps libre dans l'exploration de l'architecture FullStack avec Node.js, approfondissant ainsi constamment ma maîtrise des technologies serveur.
+          <div className="text-lg text-muted-foreground leading-relaxed text-justify">
+            <p>
+            Mon parcours débute en 2021 à l'Université d'Abomey-Calavi en Physique-Chimie, une formation exigeante qui a forgé ma rigueur scientifique, ma capacité d'analyse et mon goût pour la résolution de problèmes complexes. Captivé par le pouvoir de création du code, j'ai entrepris dès 2023 une transition déterminée vers le développement web en autodidacte. Cette démarche autonome, combinée à une discipline quotidienne, m'a permis de dompter l'écosystème JavaScript moderne (React, Next.js, Node.js) et d'architecturer des applications web performantes, élégantes et orientées produit.
           </p>
+          <br />
+          <p>
+            Aujourd'hui, guidé par une volonté constante d'innovation, j'élargis mes horizons en tant que boursier chez DataCamp pour me spécialiser en Ingénierie du Machine Learning. En combinant mon socle scientifique, ma maîtrise Fullstack et la puissance de l'Intelligence Artificielle, je ne me contente plus de bâtir des interfaces modernes : je conçois des systèmes intelligents, capables d'exploiter la donnée pour offrir une réelle valeur décisionnelle. Cette double expertise software et IA est la garantie de solutions d'ingénierie robustes, pérennes et taillées pour les défis de demain.
+          </p>
+          </div>
         </motion.div>
 
         <section className="mb-20">
